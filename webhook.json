@@ -1,0 +1,15 @@
+[
+  {
+    "id": "omada_ver_to_url",
+    "execute-command": "/omada_ver_to_url.sh",
+    "include-command-output-in-response": true,
+    "include-command-output-in-response-on-error": true,
+    "trigger-rule-mismatch-http-response-code": 401,
+    "pass-arguments-to-command": [
+      {
+        "source": "url",
+        "name": "omada-ver"
+      }
+    ]
+  }
+]
