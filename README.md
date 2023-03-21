@@ -1,18 +1,18 @@
-# mbentley/omada-controller-version
+# mbentley/omada-controller-url
 
 docker image to return URLs for the Omada Controller as a simple server response
 based off of mbentley/alpine:latest
 
 To pull this image:
-`docker pull mbentley/omada-controller-version`
+`docker pull mbentley/omada-controller-url`
 
 Example usage:
 
 ```
 docker run -d \
- --name omada-controller-version \
+ --name omada-controller-url \
  -p 9000:9000 \
- mbentley/omada-controller-version
+ mbentley/omada-controller-url
 ```
 
 Using the API:
