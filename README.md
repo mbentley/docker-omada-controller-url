@@ -21,3 +21,12 @@ Using the API:
 $ curl -f "http://host.example.com:9000/hooks/omada_ver_to_url?omada-ver=5.9"
 https://static.tp-link.com/upload/software/2023/202303/20230321/Omada_SDN_Controller_v5.9.31_Linux_x64.tar.gz
 ```
+
+Live API example for Omada Controller installs:
+
+```
+$ curl -sf "https://omada-controller-url.mbentley.net/hooks/omada_ver_to_url?omada-ver=5.9"
+https://static.tp-link.com/upload/software/2023/202303/20230321/Omada_SDN_Controller_v5.9.31_Linux_x64.tar.gz
+```
+
+For supported versions that the API will return, see the `omada_ver_to_url.sh` file.
