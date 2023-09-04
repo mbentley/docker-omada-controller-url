@@ -42,6 +42,9 @@ case "${1}" in
   5.9)
     OMADA_URL="https://static.tp-link.com/upload/software/2023/202303/20230321/Omada_SDN_Controller_v5.9.31_Linux_x64.tar.gz"
     ;;
+  beta)
+    OMADA_URL="https://static.tp-link.com/upload/beta/2023/202309/20230904/Omada_SDN_Controller_v5.12.6_Linux_x64.tar.gz(Beta).zip"
+    ;;
   *)
     exit 1
     ;;
