@@ -105,7 +105,7 @@ case "${1}" in
   beta-5.14.20.9)
     OMADA_URL="https://static.tp-link.com/upload/beta/2024/202405/20240529/Omada_SDN_Controller_v5.14.20.9_linux_x64_20240522214051.tar.zip"
     ;;
-  beta|5.14.30.7)
+  beta|beta-5.14.30.7)
     OMADA_URL="https://static.tp-link.com/upload/beta/2024/202407/20240726/Omada_Controller_Linux_5.14.30.7_tar(Pre-release).zip"
     ;;
   *)
