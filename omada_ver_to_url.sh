@@ -129,8 +129,11 @@ case "${1}" in
   5.15|5.15.24.19)
     OMADA_URL="https://static.tp-link.com/upload/software/2025/202508/20250802/Omada_SDN_Controller_v5.15.24.19_linux_x64_20250724152611.tar.gz"
     ;;
-  6.0|6.0.0.24)
+  6.0.0.24)
     OMADA_URL="https://static.tp-link.com/upload/software/2025/202510/20251031/Omada_SDN_Controller_v6.0.0.24_linux_x64_20251027202524.tar.gz"
+    ;;
+  6.0|6.0.0.25)
+    OMADA_URL="https://static.tp-link.com/upload/software/2025/202512/20251203/Omada_SDN_Controller_v6.0.0.25_linux_x64_20251120205736.tar.gz"
     ;;
   beta-5.13.30.4)
     OMADA_URL="https://static.tp-link.com/upload/beta/2024/202401/20240109/Omada_SDN_Controller_v5.13.30.4_Linux_x64.tar.gz(Beta).gz"
