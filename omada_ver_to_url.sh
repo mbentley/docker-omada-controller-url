@@ -189,8 +189,11 @@ case "${1}" in
   beta-6.1.0.10)
     OMADA_URL="https://static.tp-link.com/upload/beta/2025/202512/20251210/Omada_SDN_Controller_v6.1.0.10_linux_x64_20251209000710.tar.gz.zip"
     ;;
-  beta|beta-6.1.0.11)
+  beta-6.1.0.11)
     OMADA_URL="https://static.tp-link.com/upload/beta/2025/202512/20251216/Omada_Network_Application_v6.1.0.11_linux_x64_20251215141924.tar.gz.zip"
+    ;;
+  beta|beta-6.1.0.17)
+    OMADA_URL="https://static.tp-link.com/upload/beta/2025/202512/20251231/Omada_Network_Application_v6.1.0.17_linux_x64_20251231150906.tar.gz.zip"
     ;;
   *)
     exit 1
